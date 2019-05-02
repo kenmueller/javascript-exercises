@@ -5,7 +5,7 @@
  * In this exercise you need to sorta reverse the data.
  */
 
-function convert(arr) {
+const convert = arr => {
 	const res = []
 	arr.forEach(({ name, hobbies }) =>
 		hobbies.forEach(hobby => {

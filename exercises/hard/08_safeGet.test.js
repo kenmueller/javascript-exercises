@@ -6,9 +6,8 @@
  * it returns null.
  */
 
-const safeGet = (obj, path) => {
+const safeGet = (obj, path) =>
 	path.split('.').reduce((acc, element) => acc[element] ? acc[element] : null, obj)
-}
 
 /* =========== TESTS =============== */
 
