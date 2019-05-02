@@ -7,8 +7,9 @@
  * This time use Array.prototype.reduce
  */
 
-const filter = (arr, fn) =>
-	arr.reduce((acc, element) => acc.concat(fn(element) ? element : []), [])
+const filter = (arr, fn) => {
+	// TODO - IMPLEMENT ME
+}
 
 /* =========== TESTS =============== */
 

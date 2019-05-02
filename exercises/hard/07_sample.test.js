@@ -5,11 +5,9 @@
  * returns n random and uniq items from that list
  */
 
-const sample = (arr, n) =>
-	arr.reduce(acc => {
-		const index = Math.floor(Math.random() * arr.length)
-		return acc.concat(acc.includes(index) || acc.length === n ? [] : arr[index])
-	}, [])
+const sample = (arr, n) => {
+	// TODO - IMPLEMENT ME
+}
 
 /* =========== TEST =============== */
 

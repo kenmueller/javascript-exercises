@@ -6,11 +6,11 @@
  * original element
  *
  * You can't use Array.prototype.map
- * It's fine to use an imperative approach
  */
 
-const map = (arr, fn) =>
-	arr.reduce((acc, element) => acc.concat(fn(element)), [])
+const map = (arr, fn) => {
+	// TODO - IMPLEMENT ME
+}
 
 /* =========== TESTS =============== */
 

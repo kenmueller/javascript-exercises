@@ -7,7 +7,7 @@
  */
 
 const safeGet = (obj, path) => {
-	path.split('.').reduce((acc, element) => acc[element] ? acc[element] : null, obj)
+	// TODO - IMPLEMENT ME
 }
 
 /* =========== TESTS =============== */

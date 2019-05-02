@@ -6,10 +6,9 @@
  * TIP: Use your friend, recursion
  */
 
-const reduce = (arr, fn, initial) =>
-	arr.length === 0
-		? initial
-		: reduce(arr.slice(1), fn, fn(initial, arr[0]))
+const reduce = (arr, fn, initial) => {
+	// TODO - IMPLEMENT ME
+}
 
 /* =========== TESTS =============== */
 

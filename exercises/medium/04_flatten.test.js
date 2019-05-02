@@ -4,8 +4,9 @@
  * Removes the inner arrays and puts all the elements in the top array.
  */
 
-const flatten = arr =>
-	arr.reduce((acc, element) => acc.concat(Array.isArray(element) ? flatten(element) : element), [])
+const flatten = arr => {
+	// TODO - IMPLEMENT ME
+}
 
 /* =========== TESTS =============== */
 

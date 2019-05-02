@@ -5,19 +5,8 @@
  * In this exercise you need to sorta reverse the data.
  */
 
-function convert(arr) {
-	const res = []
-	arr.forEach(({ name, hobbies }) =>
-		hobbies.forEach(hobby => {
-		let item = res.find(item => item.hobby === hobby)
-		if (!item) {
-			item = { hobby, users: [] }
-			res.push(item)
-		}
-		if (!item.users.includes(name)) item.users.push(name)
-		})
-	)
-	return res
+const convert = arr => {
+	// TODO - IMPLEMENT ME
 }
 
 /* =========== TESTS =============== */

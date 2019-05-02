@@ -5,8 +5,9 @@
  * removed.
  */
 
-const uniq = arr =>
-	arr.reduce((acc, element) => acc.concat(acc.includes(element) ? [] : element), [])
+const uniq = arr => {
+	// TODO - IMPLEMENT ME
+}
 
 /* =========== DON'T CHANGE THE CODE AFTER THIS LINE =============== */
 
