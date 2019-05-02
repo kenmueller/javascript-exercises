@@ -6,7 +6,6 @@
  * original element
  *
  * You can't use Array.prototype.map
- * It's fine to use an imperative approach
  */
 
 const map = (arr, fn) =>
