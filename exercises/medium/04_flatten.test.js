@@ -2,15 +2,17 @@
  * FLATTEN
  *
  * Removes the inner arrays and puts all the elements in the top array.
-*/
+ */
 
-function flatten(arr) {
-  // TODO - IMPLEMENT ME
-}
+const flatten = arr =>
+	arr.reduce((acc, element) => acc.concat(Array.isArray(element) ? flatten(element) : element), [])
 
-/* =========== DON'T CHANGE THE CODE AFTER THIS LINE =============== */
+/* =========== TESTS =============== */
 
-test('flattens an array', () => expect(flatten([[1, 2], 3])).toEqual([1, 2, 3]))
+test('flattens an array', () =>
+	expect(flatten([[1, 2], 3])).toEqual([1, 2, 3])
+)
 
 test('deeply flattens an array', () =>
-  expect(flatten([[1], 2, [[3], 4]])).toEqual([1, 2, 3, 4]))
+	expect(flatten([[1], 2, [[3], 4]])).toEqual([1, 2, 3, 4])
+)
