@@ -2,12 +2,15 @@
 
 **Implement JavaSript functions from the ground up**
 
-## How to use it
+## Initialization
 
-1. Clone the repo.
-2. Run `npm install`
-3. Run `npm run test` and watch the tests fail.
-4. Fix the tests one by one.
+1. Clone the repo
+2. Run `npm install` (if you get an error, run `npm i -g npm`)
+3. Run `cd exercises`
+
+```bash
+npm test {filename}
+```
 
 ## Exercises
 
