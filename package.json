@@ -1,14 +1,25 @@
 {
-	"name": "jsex",
+	"name": "javascript-exercises",
 	"version": "1.0.0",
-	"description": "A collections of little but fun JavaScript exercises",
+	"description": "Implement JavaScript functions from the ground up",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest"
 	},
-	"author": "Yanis",
-	"license": "ISC",
-	"devDependencies": {
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenmueller/javascript-exercises.git"
+	},
+	"keywords": [
+		"javascript-exercises"
+	],
+	"author": "Ken Mueller",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kenmueller/javascript-exercises/issues"
+	},
+	"homepage": "https://github.com/kenmueller/javascript-exercises#readme",
+	"dependencies": {
 		"jest": "^24.7.1"
 	}
 }
